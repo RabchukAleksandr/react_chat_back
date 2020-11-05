@@ -5,7 +5,7 @@ const multer = require("multer")
 require('dotenv/config')
 const {v4: uuid_v4} = require('uuid');
 const app = express();
-const server = require('https').createServer(app);
+const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 const connectDB = require('./config/db')
 const cors = require('cors')
