@@ -5,7 +5,7 @@ const multer = require("multer")
 require('dotenv/config')
 const {v4: uuid_v4} = require('uuid');
 const app = express();
-const server = require('http').createServer(app);
+const server = require('https').createServer(app);
 const io = require('socket.io')(server);
 const connectDB = require('./config/db')
 const cors = require('cors')
@@ -193,7 +193,7 @@ app.get('/rooms/:id', async (req, res) => {
 });
 
 connectDB();
-const port = process.env.port || 8080
+const port = process.env.PORT || 8080
 server.listen(port, (err) => {
     if (err) {
         throw Error(err)
