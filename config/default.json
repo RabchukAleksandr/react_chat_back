@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://gerderon:gerderon14@cluster0.ztl2d.mongodb.net/newdb?retryWrites=true&w=majority"
+}

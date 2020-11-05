@@ -1,0 +1,24 @@
+{
+  "name": "chatServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.785.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.12",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1"
+  }
+}
